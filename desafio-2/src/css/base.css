@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: lightgray;
+    padding: 10px 20px 0px;
+}
+.header {
+    min-height: 150px;
+}
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: lightgreen;
+    min-height: 150px;
+    text-align: center;
+}
+
+.fotos {
+    width: 998px;
+}
+
+.table {
+    width: 90%;
+    text-align: center;
+}
+
+.formulario {
+    margin: 5px;
+}
